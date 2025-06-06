@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
 
-type SentimentFilter = "all" | "positive" | "neutral" | "negative";
+export type SentimentFilter = "all" | "positive" | "neutral" | "negative";
 
 const ToggleControl = ({
   activeFilter,
